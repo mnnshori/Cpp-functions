@@ -1,0 +1,8 @@
+void display(vector<int> &a);
+
+void display(vector<int> &a) {
+    int n=a.size();
+    for(int i=0; i<=n-1; i++) {cout << a[i] << " ";}
+    cout << "\n";
+    return;
+}
